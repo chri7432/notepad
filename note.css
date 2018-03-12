@@ -19,8 +19,8 @@ font-weight: bold;
 }
 .grid-container {
 display: grid;
-grid-template-columns: 80px 200px auto 30px;
-grid-gap: 10px;
+grid-template-columns: 80px 210px auto 80px;
+grid-gap: 7px;
 background-color: #2196F3;
 padding: 10px;
 }
