@@ -10,3 +10,15 @@ header1 {
 font-size: 70px;
 font-weight: bold;
 }
+.grid-container {
+display: grid;
+grid-template-columns: 80px 200px auto 30px;
+grid-gap: 10px;
+background-color: #2196F3;
+padding: 10px;
+}
+.grid-container > div {
+background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+padding: 20px 0;
+font-size: 30px;}
